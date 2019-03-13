@@ -63,9 +63,10 @@ depends on the inputMode, see below
 """
 #inputSource='/path/to/file.txt'
 #inputSource='/path/to/file.gz'
-inputSource='fifo/ctu5_dns_response.pcap'
-#inputSource='fifo/ctu7_dns_response.pcap'
-#inputSource='fifo/ctu13_dns_response.pcap'
+# inputSource='fifo/ctu5_dns_response.pcap'
+inputSource='fifo/ctu7_dns_response.pcap'
+# inputSource='fifo/ctu13_dns_response.pcap'
+# inputSource='fifo/isot_dns_1.pcap'
 
 """
 输入模式
@@ -108,8 +109,8 @@ dbfile=None
 the clusteringThreshold defines the required minimum distance between two
 domains to be considered similar. 0.0=identical, 1.0=completely different.
 """
-clusteringThreshold=0.35
-
+# clusteringThreshold=0.35
+clusteringThreshold=0.6
 """
 IPBlocks合并参数
 the domainCountThreshold defines the share of clusters of two IPBlocks that
@@ -117,7 +118,8 @@ need to be similar (wrt. to the domain distance and the clusteringThreshold),
 so that these blocks can be merged. 0.0=deactivated, 1.0=all clusters must have
 a similar counterpart in the other IPBlock.
 """
-domainCountThreshold=0.5
+# domainCountThreshold=0.5
+domainCountThreshold=0.0
 
 """
 IPBlocks集群中域名折叠参数，即域名最大数量
@@ -158,6 +160,6 @@ a time interval in seconds. within this time interval, each domain-to-IP
 mapping is forwarded only once to the DNSMap, all other occurrences of this
 mapping are ignored.
 """
-filterTimeThreshold=3600*3
-#filterTimeThreshold=0
+# filterTimeThreshold=3600*3
+filterTimeThreshold=0
 

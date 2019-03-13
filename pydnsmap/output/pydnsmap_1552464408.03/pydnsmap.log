@@ -1,0 +1,24 @@
+03-13 16:06 INFO     reading from fifo/ctu13_dns_response.pcap
+03-13 16:06 INFO     writing to /root/DNSMap/pydnsmap/pydnsmap/output/pydnsmap_1552464408.03/dnsmap.txt
+03-13 16:06 INFO     timebinSizeMerge: 21600
+03-13 16:06 INFO     timebinSizeSplitAndCleanup: 172800
+03-13 16:06 INFO     maxClusterSize: 30
+03-13 16:06 INFO     maxNumClusters: 50
+03-13 16:06 INFO     clusteringThreshold: 0.35
+03-13 16:06 INFO     domainCountThreshold: 0.5
+03-13 16:06 INFO     filterTimeThreshold: 10800
+03-13 16:06 INFO     merged blocks: 444
+03-13 16:06 INFO     t is now 1313443244; merged: True; splitAndCleanedUp: False
+03-13 16:06 INFO     memory usage: {'peak': 382572, 'rss': 48856}
+03-13 16:06 INFO     IPBlocks before merge: 1714
+03-13 16:06 INFO     IPs/IPBlocks: 1714/1270
+03-13 16:06 INFO     domains: 1514
+03-13 16:06 INFO     Clusters per IP: (1.0443653375213124, 0.6332028140909561, array([ 0.33333333,  0.5       ,  1.        ,  1.        ,  1.        ,
+        1.        ,  1.        ,  1.        ,  1.        ,  1.        ,
+        1.        ,  1.        ,  1.        ,  1.        ,  1.        ,
+        1.        ,  1.        ,  1.        ,  2.        , 13.        ]))
+03-13 16:06 INFO     added1964 out of 2471 records
+03-13 16:06 INFO     1514 domains in tree
+03-13 16:06 INFO     1270 blocks in tree
+03-13 16:06 INFO     1714 IPs in tree
+03-13 16:06 INFO     dumping to file /root/DNSMap/pydnsmap/pydnsmap/output/pydnsmap_1552464408.03/dnsmap.txt

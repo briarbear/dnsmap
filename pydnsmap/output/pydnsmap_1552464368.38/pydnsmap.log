@@ -1,0 +1,14 @@
+03-13 16:06 INFO     reading from fifo/ctu7_dns_response.pcap
+03-13 16:06 INFO     writing to /root/DNSMap/pydnsmap/pydnsmap/output/pydnsmap_1552464368.38/dnsmap.txt
+03-13 16:06 INFO     timebinSizeMerge: 21600
+03-13 16:06 INFO     timebinSizeSplitAndCleanup: 172800
+03-13 16:06 INFO     maxClusterSize: 30
+03-13 16:06 INFO     maxNumClusters: 50
+03-13 16:06 INFO     clusteringThreshold: 0.35
+03-13 16:06 INFO     domainCountThreshold: 0.5
+03-13 16:06 INFO     filterTimeThreshold: 10800
+03-13 16:06 INFO     added29 out of 49 records
+03-13 16:06 INFO     17 domains in tree
+03-13 16:06 INFO     29 blocks in tree
+03-13 16:06 INFO     29 IPs in tree
+03-13 16:06 INFO     dumping to file /root/DNSMap/pydnsmap/pydnsmap/output/pydnsmap_1552464368.38/dnsmap.txt
