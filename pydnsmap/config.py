@@ -1,3 +1,5 @@
+# coding:utf-8
+# -*- coding: utf-8 -*-
 # Copyright (c) 2014, FTW Forschungszentrum Telekommunikation Wien
 # All rights reserved.
 #
@@ -24,6 +26,7 @@
 # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 # EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
+
 import os
 import time
 import logging
@@ -38,6 +41,7 @@ from dnsmapIO import (INPUTMODE_FIFO, INPUTMODE_PROTOBUF, INPUTMODE_PCAP_FILE,
 create working directory
 创建工作目录
 """
+
 workingDir='output/pydnsmap_'+str(time.time())
 os.mkdir(workingDir)
 workingDir=os.path.abspath(workingDir)
@@ -59,7 +63,9 @@ depends on the inputMode, see below
 """
 #inputSource='/path/to/file.txt'
 #inputSource='/path/to/file.gz'
-inputSource='fifo/botnet-fast-flux.pcap'
+inputSource='fifo/ctu5_dns_response.pcap'
+#inputSource='fifo/ctu7_dns_response.pcap'
+#inputSource='fifo/ctu13_dns_response.pcap'
 
 """
 输入模式
