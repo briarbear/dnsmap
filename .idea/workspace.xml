@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa94682-ad30-42e4-8d1f-e3aad48e37b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pydnsmap/DNSMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydnsmap/DNSMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pydnsmap/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydnsmap/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydnsmap/dnsmapGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydnsmap/dnsmapGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydnsmap/whitelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pydnsmap/whitelist.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,54 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="509" column="26" selection-start-line="509" selection-start-column="26" selection-end-line="509" selection-end-column="26" />
-              <folding>
-                <element signature="e#1508#1518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552530799.62/dnsmap.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552530838.3/dnsmap.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="153" column="56" lean-forward="true" selection-start-line="153" selection-start-column="56" selection-end-line="153" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/DNSMap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="328" column="38" selection-start-line="328" selection-start-column="38" selection-end-line="328" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="757">
+              <caret line="799" column="32" selection-start-line="799" selection-start-column="32" selection-end-line="799" selection-end-column="32" />
               <folding>
                 <element signature="e#1580#1602#0" expanded="true" />
               </folding>
@@ -71,10 +28,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/IPBlock.py">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552807843.66/suspicious.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552816688.03/suspicious.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10899">
-              <caret line="525" selection-start-line="525" selection-end-line="525" />
+            <state relative-caret-position="63">
+              <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="355" selection-start-line="355" selection-end-line="355" />
+              <folding>
+                <element signature="e#1508#1543#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +72,8 @@
       <find>outfilename</find>
       <find>dnsmap.txt</find>
       <find>dnsmap</find>
+      <find>NavigationToolbar2QT</find>
+      <find>ax.hold</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,16 +84,18 @@
       <list>
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/pydnsmap/dnsmapIO.py" />
-        <option value="$PROJECT_DIR$/pydnsmap/config.py" />
         <option value="$PROJECT_DIR$/pydnsmap/DNSMap.py" />
+        <option value="$PROJECT_DIR$/pydnsmap/dnsmapGUI.py" />
+        <option value="$PROJECT_DIR$/pydnsmap/whitelist2.txt" />
+        <option value="$PROJECT_DIR$/pydnsmap/whitelist.txt" />
+        <option value="$PROJECT_DIR$/pydnsmap/config.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="48" />
-    <option name="width" value="1400" />
-    <option name="height" value="978" />
+    <option name="x" value="333" />
+    <option name="width" value="467" />
+    <option name="height" value="600" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -154,14 +141,14 @@
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap_1552530799.62" type="462c0819:PsiDirectoryNode" />
+              <item name="pydnsmap_1552807843.66" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pydnsmap" type="b2602c69:ProjectViewProjectNode" />
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap_1552530838.3" type="462c0819:PsiDirectoryNode" />
+              <item name="pydnsmap_1552816688.03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,7 +158,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -190,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pydnsmap">
+  <component name="RunManager" selected="Python.dnsmapGUI">
     <configuration name="dnsmapGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pydnsmap" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,8 +222,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pydnsmap" />
         <item itemvalue="Python.dnsmapGUI" />
+        <item itemvalue="Python.pydnsmap" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +249,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34279227" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29874572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36549374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,9 +320,6 @@
     <entry file="file://$PROJECT_DIR$/pydnsmap/TldMatcher.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/util.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552375529.23/dnsmap.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552460683.75/dnsmap.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552460683.75/suspicious.txt" />
@@ -359,29 +343,12 @@
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464219.88/suspicious.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464219.88/pydnsmap.log" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552465692.86/dnsmap.txt" />
-    <entry file="file://$PROJECT_DIR$/pydnsmap/pydnsmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="108" column="15" lean-forward="true" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="509" column="26" selection-start-line="509" selection-start-column="26" selection-end-line="509" selection-end-column="26" />
           <folding>
             <element signature="e#1508#1518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#1580#1602#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -399,21 +366,75 @@
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552530838.3/dnsmap.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="153" column="56" lean-forward="true" selection-start-line="153" selection-start-column="56" selection-end-line="153" selection-end-column="56" />
+          <caret line="153" column="56" selection-start-line="153" selection-start-column="56" selection-end-line="153" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/pydnsmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/DNSMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="328" column="31" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/matplotlib/backends/backend_qt5agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+          <folding>
+            <element signature="e#1508#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/whitelist2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/whitelist.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="799" column="32" selection-start-line="799" selection-start-column="32" selection-end-line="799" selection-end-column="32" />
+          <folding>
+            <element signature="e#1580#1602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552807843.66/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552816688.03/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydnsmap/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/DNSMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="328" column="38" selection-start-line="328" selection-start-column="38" selection-end-line="328" selection-end-column="38" />
+          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
         </state>
       </provider>
     </entry>

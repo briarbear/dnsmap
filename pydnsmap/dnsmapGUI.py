@@ -39,9 +39,12 @@ from PyQt4.QtGui import *
 import matplotlib
 matplotlib.use('Qt4Agg', warn=True)
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.backends.backend_qt4agg import NavigationToolbar2QTAgg as NavigationToolbar
-#from matplotlib.figure import Figure
-from matplotlib.pyplot import figure
+# from matplotlib.backends.backend_qt4agg import NavigationToolbar2QTAgg as NavigationToolbar
+from matplotlib.backends.backend_qt4agg import NavigationToolbar2QT as NavigationToolbar
+# import Figure
+# from matplotlib.pyplot import figure
+from matplotlib.figure import Figure
+
 import networkx as nx
 import numpy as np
 import netaddr
@@ -990,7 +993,8 @@ class AppForm(QMainWindow):
         """
         self.dpi = 100
         #self.fig = Figure((5.0, 4.0), dpi=self.dpi)
-        self.fig = figure(figsize=(5.0, 4.0), dpi=self.dpi)
+        # self.fig = figure(figsize=(5.0, 4.0), dpi=self.dpi)
+        self.fig = Figure(figsize=(5.0, 4.0), dpi=self.dpi)
         self.canvas = FigureCanvas(self.fig)
         self.canvas.setParent(self.main_frame)
 
