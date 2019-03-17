@@ -325,7 +325,8 @@ class DNSMap():
         self.netmask = '/'+str(netmask)
         self.forest = defaultdict(RBTree)
         self.domainfactory = domclust.DomainStrFactory()
-        self.doOutputSuspicious = False
+        # self.doOutputSuspicious = False
+        self.doOutputSuspicious = True
 
         config.clusteringThreshold = clusteringThreshold
         config.domainCountThreshold = domainCountThreshold
