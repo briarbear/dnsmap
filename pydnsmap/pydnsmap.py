@@ -84,7 +84,7 @@ def main(fakeMappingFilename=None):
     with r as g:
         gg=g.nnext()
         for data in gg:
-            (dname, clientID, ips),timestamp = data
+            (dname, clientID, ips,ttl),timestamp = data
 
             while nextFakeMapping and nextFakeMapping[0] < timestamp:
                 fakeTimestamp, fakeFQDN, fakeIP = nextFakeMapping
@@ -93,7 +93,7 @@ def main(fakeMappingFilename=None):
 
             try:
                 for ip in ips:
-                    x=dnsmap.add(ip, dname, timestamp,clientID) # add the clientID
+                    x=dnsmap.add(ip, dname, timestamp,ttl,clientID) # add the clientID
                     if x: added+=1
                     numRecords+=1
             except KeyboardInterrupt:
