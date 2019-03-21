@@ -747,7 +747,7 @@ class DNSMap():
             numBlocks = 0
         # NOTE: <dname> may contain non-ascii symbols, that's why we use
         # unicode
-        s = ' '.join([str(timestamp), unicode(dname), str(ip), str(clientID),
+        s = ' '.join([str(timestamp), str(clientID), unicode(dname), str(ip),
             str(minDist), str(numBlocks), str(numDomainsInBlock)])
         s=s.encode('utf-8')
         self.suspiciousFile.write(s+'\n')
