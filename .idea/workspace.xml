@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py" line="472" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/pydnsmap/DNSMap.py" line="751" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py" line="474" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/pydnsmap/DNSMap.py" line="750" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caa94682-ad30-42e4-8d1f-e3aad48e37b8" name="Default Changelist" comment="">
@@ -23,19 +23,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553136218.23/suspicious.txt">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/DNSMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-693">
-              <caret column="73" lean-forward="true" selection-start-column="73" selection-end-column="73" />
+            <state relative-caret-position="3195">
+              <caret line="750" column="27" selection-start-line="750" selection-start-column="27" selection-end-line="750" selection-end-column="27" />
+              <folding>
+                <element signature="e#7575#11043#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pydnsmap/DNSMap.py">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="819" column="23" lean-forward="true" selection-start-line="819" selection-start-column="23" selection-end-line="819" selection-end-column="23" />
+            <state relative-caret-position="337">
+              <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydnsmap/pydnsmap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+              <folding>
+                <element signature="e#1508#1518#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +70,7 @@
       <find>set</find>
       <find>Node</find>
       <find>print</find>
+      <find>ttl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,6 +84,7 @@
         <option value="$PROJECT_DIR$/pydnsmap/whitelist2.txt" />
         <option value="$PROJECT_DIR$/pydnsmap/whitelist.txt" />
         <option value="$PROJECT_DIR$/pydnsmap/config.py" />
+        <option value="$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553137274.94/suspicious.txt" />
         <option value="$PROJECT_DIR$/pydnsmap/pydnsmap.py" />
         <option value="$PROJECT_DIR$/pydnsmap/DNSMap.py" />
         <option value="$PROJECT_DIR$/pydnsmap/dnsmapIO.py" />
@@ -103,18 +120,6 @@
               <item name="pydnsmap" type="b2602c69:ProjectViewProjectNode" />
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pydnsmap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
-              <item name="fifo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pydnsmap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -122,14 +127,7 @@
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap_1553085826.71" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pydnsmap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="pydnsmap_1553136218.23" type="462c0819:PsiDirectoryNode" />
+              <item name="pydnsmap_1553150087.0" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,7 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -224,15 +222,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828961" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828961" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50171036" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30444697" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24629419" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1395881" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21510297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -273,7 +270,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py</url>
-          <line>518</line>
+          <line>520</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -302,19 +299,19 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pydnsmap/pydnsmap.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pydnsmap/pydnsmap.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pydnsmap/DNSMap.py</url>
           <line>749</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py</url>
+          <line>238</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -322,15 +319,11 @@
       <configuration name="PythonConfigurationType">
         <watch expression="kwargs" />
         <watch expression="r" />
+        <watch expression="dpkt.dns.DNS_A" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464368.38/dnsmap.txt" />
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464368.38/pydnsmap.log" />
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464368.38/suspicious.txt" />
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464408.03/suspicious.txt" />
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464408.03/dnsmap.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464408.03/pydnsmap.log" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464412.67/suspicious.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1552464412.67/dnsmap.txt" />
@@ -447,25 +440,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553135395.98/pydnsmap.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553135616.17/suspicious.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/pydnsmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#1508#1518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553135802.39/suspicious.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553135395.98/pydnsmap.log" />
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553135616.17/suspicious.txt" />
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553135802.39/suspicious.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553085826.71/suspicious.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -473,31 +450,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553136103.09/suspicious.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="62" lean-forward="true" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="270" column="45" lean-forward="true" selection-start-line="270" selection-start-column="45" selection-end-line="270" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553136103.09/suspicious.txt" />
     <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553136218.23/suspicious.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret column="73" lean-forward="true" selection-start-column="73" selection-end-column="73" />
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553137274.94/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553148697.76/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/pydnsmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+          <folding>
+            <element signature="e#1508#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553149006.24/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553148722.03/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydnsmap/DNSMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="819" column="23" lean-forward="true" selection-start-line="819" selection-start-column="23" selection-end-line="819" selection-end-column="23" />
+        <state relative-caret-position="3195">
+          <caret line="750" column="27" selection-start-line="750" selection-start-column="27" selection-end-line="750" selection-end-column="27" />
+          <folding>
+            <element signature="e#7575#11043#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/output/pydnsmap_1553149143.61/suspicious.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydnsmap/dnsmapIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
         </state>
       </provider>
     </entry>

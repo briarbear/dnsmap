@@ -24,7 +24,6 @@
 # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 # EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
-
 import os
 from collections import defaultdict
 import fnmatch
@@ -735,7 +734,7 @@ class DNSMap():
             else:
                 ipb.cluster()
 
-    def _writeSuspicious(self, timestamp, dname, ip, clientID, minDist,
+    def _writeSuspicious(self, timestamp, dname, ip, ttl, clientID, minDist,
             numDomainsInBlock):
         """
         FIXME: comment me
@@ -747,13 +746,13 @@ class DNSMap():
             numBlocks = 0
         # NOTE: <dname> may contain non-ascii symbols, that's why we use
         # unicode
-        s = ' '.join([str(timestamp), str(clientID), unicode(dname), str(ip),
-            str(minDist), str(numBlocks), str(numDomainsInBlock)])
+        # not print the minDist value
+        s = ' '.join([str(timestamp), str(clientID), unicode(dname), str(ip), str(ttl), str(numBlocks), str(numDomainsInBlock)])
         s=s.encode('utf-8')
         self.suspiciousFile.write(s+'\n')
 
     @timeInterval
-    def add(self, ip, dname, timestamp, clientID=None):
+    def add(self, ip, dname, timestamp, ttl, clientID=None):
         """
         Add a new IP address/domain name mapping to the tree. Four things can
         happen:
@@ -769,6 +768,7 @@ class DNSMap():
         address.
 
         Returns True if a new IPBlock was added, else returns False
+        :type ttl: ttl
         """
 
         if not ip or not dname:
@@ -814,7 +814,7 @@ class DNSMap():
             #    before. Typically, such IPs are in access provider networks,
             #    and could therefore indicate malicious activity.
             #    """
-                self._writeSuspicious(timestamp, dname, ip, clientID, -1
+                self._writeSuspicious(timestamp, dname, ip, ttl,clientID, -1
                         ,ipb.getNumDomains())
 
             return True
@@ -840,7 +840,7 @@ class DNSMap():
                 suspicious.
                 """
                 if self.doOutputSuspicious and minDist>0.0:
-                    self._writeSuspicious(timestamp, dname, ip, clientID,
+                    self._writeSuspicious(timestamp, dname, ip, ttl,clientID,
                             minDist, ipb.getNumDomains())
 
                 return True

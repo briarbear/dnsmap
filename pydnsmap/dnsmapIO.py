@@ -235,6 +235,7 @@ def pcapReader(q, exitSignal, infile=None, interface=None, thrsh=0):
                 continue
 
             #lastCname=queriedName
+            ttl = 0 # default value 0
             for answer in dns.an:
                 """
                 FIXME: this doesn't work for multiple queries in one DNS packet
@@ -245,6 +246,7 @@ def pcapReader(q, exitSignal, infile=None, interface=None, thrsh=0):
                     ip_temp=socket.inet_ntoa(answer.rdata)
                     try:
                         addr=IPAddress(ip_temp)
+                        ttl = answer.ttl;
                     except netaddr.AddrFormatError:
                         continue
                     else:
@@ -266,7 +268,7 @@ def pcapReader(q, exitSignal, infile=None, interface=None, thrsh=0):
                 continue
 
             # data = ((queriedName, ip.dst, aRecords), timestamp)
-            data = ((queriedName, socket.inet_ntoa(ip.dst), aRecords), timestamp)
+            data = ((queriedName, socket.inet_ntoa(ip.dst), aRecords,ttl), timestamp)
             # print ip.dst;
             # print socket.inet_ntoa(ip.dst);
             queued=False
@@ -495,7 +497,7 @@ class recGen(object):
                     else:
 
                         if self.dbfile or self.dbserver:
-                            (queriedName, clientID, ips), timestamp = data
+                            (queriedName, clientID, ips,ttl), timestamp = data
                             dumpToDatabase(self.curs, timestamp, queriedName,
                                     ips, clientID, self.dbtable)
 
