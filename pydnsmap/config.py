@@ -63,8 +63,8 @@ depends on the inputMode, see below
 """
 #inputSource='/path/to/file.txt'
 #inputSource='/path/to/file.gz'
-# inputSource='fifo/ctu5_dns_response.pcap'
-inputSource='fifo/ctu13_dns_response.pcap'
+inputSource='fifo/ctu5_dns_response.pcap'
+# inputSource='fifo/ctu13_dns_response.pcap'
 # inputSource='fifo/ctu13_dns_response.pcap'
 # inputSource='fifo/isot_dns_1.pcap'
 

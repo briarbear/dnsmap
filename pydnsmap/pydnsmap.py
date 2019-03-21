@@ -93,7 +93,7 @@ def main(fakeMappingFilename=None):
 
             try:
                 for ip in ips:
-                    x=dnsmap.add(ip, dname, timestamp)
+                    x=dnsmap.add(ip, dname, timestamp,clientID) # add the clientID
                     if x: added+=1
                     numRecords+=1
             except KeyboardInterrupt:

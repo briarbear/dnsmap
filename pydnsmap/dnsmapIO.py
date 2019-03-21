@@ -1,3 +1,4 @@
+# -*-coding:utf-8-*-
 # Copyright (c) 2014, FTW Forschungszentrum Telekommunikation Wien
 # All rights reserved.
 #
@@ -37,6 +38,7 @@ from os.path import getsize as file_getsize
 import gzip
 
 # import netaddr
+import netaddr
 import pcap
 import dpkt
 from netaddr import IPAddress
@@ -153,7 +155,7 @@ def pcapReader(q, exitSignal, infile=None, interface=None, thrsh=0):
     if not infile and not interface:
         # FIXME: write warning here
         return
-
+    # open the file
     if infile:
         pc=pcap.pcapObject()
         try:
@@ -240,9 +242,9 @@ def pcapReader(q, exitSignal, infile=None, interface=None, thrsh=0):
                 #if answer.type == dpkt.dns.DNS_CNAME:
                 #    lastCname=answer.cname
                 if answer.type == dpkt.dns.DNS_A:
-                    ip1=socket.inet_ntoa(answer.rdata)
+                    ip_temp=socket.inet_ntoa(answer.rdata)
                     try:
-                        addr=IPAddress(ip1)
+                        addr=IPAddress(ip_temp)
                     except netaddr.AddrFormatError:
                         continue
                     else:
@@ -263,7 +265,10 @@ def pcapReader(q, exitSignal, infile=None, interface=None, thrsh=0):
             if not aRecords:
                 continue
 
-            data = ((queriedName, ip.dst, aRecords), timestamp)
+            # data = ((queriedName, ip.dst, aRecords), timestamp)
+            data = ((queriedName, socket.inet_ntoa(ip.dst), aRecords), timestamp)
+            # print ip.dst;
+            # print socket.inet_ntoa(ip.dst);
             queued=False
             while not queued:
                 try:
@@ -477,7 +482,7 @@ class recGen(object):
         while True:
             try:
                 try:
-                    data = q.get(timeout=60) # this is the only consumer and the queue is not empty, so it returns the next item immediately
+                    data = q.get(timeout=1) # this is the only consumer and the queue is not empty, so it returns the next item immediately
                 except Queue.Empty:
                     """
                     read timeout: return an empty record to keep the DNSMap going
